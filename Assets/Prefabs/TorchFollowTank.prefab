@@ -39,6 +39,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4244296016046688}
   - component: {fileID: 108755638826188176}
+  - component: {fileID: 114081552553509068}
   m_Layer: 0
   m_Name: Torch
   m_TagString: Untagged
@@ -293,8 +294,6 @@ GameObject:
   - component: {fileID: 114208449931073896}
   - component: {fileID: 114232065932103562}
   - component: {fileID: 114046692812266810}
-  - component: {fileID: 114005702885547638}
-  - component: {fileID: 114060063582949126}
   m_Layer: 9
   m_Name: TorchFollowTank
   m_TagString: Player
@@ -968,18 +967,6 @@ Light:
   m_UseColorTemperature: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
---- !u!114 &114005702885547638
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1875690981365816}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 281be2a2e47f8411ca38c019c22fe956, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  light: {fileID: 108755638826188176}
 --- !u!114 &114046692812266810
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1022,15 +1009,15 @@ MonoBehaviour:
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
   m_DynamicPixelsPerUnit: 1
---- !u!114 &114060063582949126
+--- !u!114 &114081552553509068
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1875690981365816}
+  m_GameObject: {fileID: 1018008641936974}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7852d35f29d9248b3b8ff6a59066c4b3, type: 3}
+  m_Script: {fileID: 11500000, guid: 281be2a2e47f8411ca38c019c22fe956, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   torch: {fileID: 108755638826188176}

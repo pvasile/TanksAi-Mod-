@@ -4,11 +4,11 @@ using UnityEngine;
 
 public class TorchLightToggle : MonoBehaviour {
 
-	public Light light;
+	public Light torch;
 
 	// Use this for initialization
 	void Start () {
-		light = GetComponent<Light> ();
+		torch = GetComponent<Light> ();
 	}
 	
 	// Update is called once per frame
@@ -16,7 +16,7 @@ public class TorchLightToggle : MonoBehaviour {
 		//TOGGLE LIGHT ON/OFF WHEN L KEY IS PRESSED
 		if (Input.GetKeyDown(KeyCode.L))
 		{
-			light.enabled = !light.enabled;
+			torch.enabled = !torch.enabled;
 	}
 }
 }
