@@ -564,15 +564,19 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 10878784, guid: 312c52d27be2d2d42acea3ccebc4694b, type: 2}
       propertyPath: m_Color.r
-      value: 0
+      value: 0.8455882
       objectReference: {fileID: 0}
     - target: {fileID: 10878784, guid: 312c52d27be2d2d42acea3ccebc4694b, type: 2}
       propertyPath: m_Color.g
-      value: 0
+      value: 0.7616297
       objectReference: {fileID: 0}
     - target: {fileID: 10878784, guid: 312c52d27be2d2d42acea3ccebc4694b, type: 2}
       propertyPath: m_Color.b
-      value: 0
+      value: 0.2922253
+      objectReference: {fileID: 0}
+    - target: {fileID: 10878784, guid: 312c52d27be2d2d42acea3ccebc4694b, type: 2}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 312c52d27be2d2d42acea3ccebc4694b, type: 2}
@@ -686,8 +690,8 @@ MonoBehaviour:
   m_CameraControl: {fileID: 910684942}
   m_MessageText: {fileID: 102963701}
   m_TankPrefabs:
-  - {fileID: 1612173059400726, guid: f0d4264ba9dd540258b6963b50559ce1, type: 2}
-  - {fileID: 173472, guid: 6401c3a9d0f3f4c2db7b9aa2c313f353, type: 2}
+  - {fileID: 1875690981365816, guid: de6213064af054679b3addda81bba896, type: 2}
+  - {fileID: 1980255685762478, guid: 6401c3a9d0f3f4c2db7b9aa2c313f353, type: 2}
   m_Tanks:
   - m_PlayerColor: {r: 0.16470589, g: 0.39215687, b: 0.69803923, a: 0}
     m_SpawnPoint: {fileID: 194018016}
