@@ -18,5 +18,6 @@ public class TorchLightToggle : MonoBehaviour {
 		{
 			torch.enabled = !torch.enabled;
 	}
+
 }
 }

@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 4e3954ed8c8964fc0bbb4b85edc09add
+timeCreated: 1517846699
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - AITankScanner: {fileID: 1980255685762478, guid: 6401c3a9d0f3f4c2db7b9aa2c313f353,
+      type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
