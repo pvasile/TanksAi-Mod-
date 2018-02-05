@@ -599,6 +599,11 @@ Prefab:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 108441493737614928, guid: 312c52d27be2d2d42acea3ccebc4694b,
+        type: 2}
+      propertyPath: m_Intensity
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 312c52d27be2d2d42acea3ccebc4694b, type: 2}
   m_IsPrefabParent: 0
@@ -767,7 +772,7 @@ MonoBehaviour:
   m_CameraControl: {fileID: 910684942}
   m_MessageText: {fileID: 102963701}
   m_TankPrefabs:
-  - {fileID: 1663288544560918, guid: b247a46ea4f2440fc9b8f2dce416666b, type: 2}
+  - {fileID: 1947611414782722, guid: c35acdf7d3cc34218b4224693534823a, type: 2}
   - {fileID: 1980255685762478, guid: 6401c3a9d0f3f4c2db7b9aa2c313f353, type: 2}
   m_Tanks:
   - m_PlayerColor: {r: 0.16470589, g: 0.39215687, b: 0.69803923, a: 0}
@@ -777,7 +782,7 @@ MonoBehaviour:
     m_Instance: {fileID: 0}
     m_Wins: 0
     m_WayPointList: []
-  - m_PlayerColor: {r: 0.8980392, g: 0.18039216, b: 0.15686275, a: 0}
+  - m_PlayerColor: {r: 0.13192043, g: 0.14705884, b: 0.13703617, a: 0}
     m_SpawnPoint: {fileID: 2083660209}
     m_PlayerNumber: 2
     m_ColoredPlayerText: 
