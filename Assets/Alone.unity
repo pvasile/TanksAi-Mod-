@@ -593,7 +593,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 488946, guid: 312c52d27be2d2d42acea3ccebc4694b, type: 2}
       propertyPath: m_RootOrder
-      value: 4
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 1984611208510458, guid: 312c52d27be2d2d42acea3ccebc4694b, type: 2}
       propertyPath: m_IsActive
@@ -772,7 +772,7 @@ MonoBehaviour:
   m_CameraControl: {fileID: 910684942}
   m_MessageText: {fileID: 102963701}
   m_TankPrefabs:
-  - {fileID: 1947611414782722, guid: c35acdf7d3cc34218b4224693534823a, type: 2}
+  - {fileID: 1004091274267944, guid: 88e5efb6e143d4de78abf5f78f360511, type: 2}
   - {fileID: 1980255685762478, guid: 6401c3a9d0f3f4c2db7b9aa2c313f353, type: 2}
   m_Tanks:
   - m_PlayerColor: {r: 0.16470589, g: 0.39215687, b: 0.69803923, a: 0}
@@ -975,7 +975,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1714539874
 GameObject:
